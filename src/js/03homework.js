@@ -107,4 +107,4 @@ refs.form.addEventListener('input', throttle(onFormInput, 500));
 // }
 
 // formEl.addEventListener('submit', onBtnClick);
-// formEl.addEventListener('input', onChange, 500);
+// formEl.addEventListener('input', onChange);
