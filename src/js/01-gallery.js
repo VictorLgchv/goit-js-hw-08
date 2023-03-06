@@ -26,7 +26,7 @@ function createImageCardsMurkup(elem) {
     .join("");
 }
 // console.log(galleryItems);
-var lightbox = new SimpleLightbox(".gallery a", {
+const lightbox = new SimpleLightbox(".gallery a", {
   loop: true,
   captionsData: "alt",
   captionPosition: "bottom",
